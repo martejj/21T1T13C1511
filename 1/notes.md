@@ -74,6 +74,8 @@ __Show and Tell:__ Look around yourself and find something interesting to show a
     * Intended to let you reflect on where you are and let me know where you are/ what you are struggling on.
 * We use WebCMS3 for this course __NOT__ Moodle
 
+<br>
+
 ## Tutorial Q4 - Is it OK to ask a really really basic question on the course forum?
 
 <details>
@@ -81,12 +83,16 @@ __Show and Tell:__ Look around yourself and find something interesting to show a
 Yes! Just don't ask repetitive questions (make sure you look if your question has been asked before)
 </details>
 
+<br>
+
 ## Tutorial Q5 - I have a brain the size of a planet and been writing C programs since pre-school - do I need to read the course forum??
 
 <details>
 <summary>Answer</summary>
 Yes! Keeping up to date with the course forum is important as there is a lot about the course on it.
 </details>
+
+<br>
 
 ## Tutorial Q6 - What is plagiarism? Are you allowed to submit the code of others? Should you give your work to anybody else?
 
@@ -97,6 +103,8 @@ Plagiarism is taking another persons code and claiming it is yours. You will als
 
 </details>
 
+<br>
+
 ## Tutorial Q7 - Why is plagiarism bad?
 
 <details>
@@ -105,6 +113,8 @@ Plagiarism is taking another persons code and claiming it is yours. You will als
 It is in effect cheating the system and degrades the 
 
 </details>
+
+<br>
 
 ## Tutorial Q8 - Can I publish my code, during or after the term?
 
@@ -116,6 +126,8 @@ No!! Publishing your code during the term can give a flase positive to automated
 We often reuse parts of the course between terms so publishing your code afterwards may lead to other students copying your code and then us tracing it back to you.
 
 </details>
+
+<br>
 
 ## Tutorial Q9 - I'm thinking of plagiarising - What should I do?
 
@@ -167,6 +179,11 @@ Task     | Drawing an image | Doing some calulation
 
 ## Now for programming examples
 
+<br>
+</br>
+</br>
+</br>
+
 ### What are some interesting features of the following program?
 
 ```c
@@ -184,6 +201,9 @@ Task     | Drawing an image | Doing some calulation
     }
 ```
 
+</br>
+</br>
+</br>
 </br>
 </br>
 </br>

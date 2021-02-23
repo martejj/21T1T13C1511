@@ -1,0 +1,17 @@
+//
+// face0.c By Harrison And Friends
+// 16/02/2021
+// Outputs a simple face! :)
+
+#include <stdio.h>
+
+int main(void) {
+    
+    printf("~ ~\n");
+    printf("0 0\n");
+    printf(" o \n");
+    printf("\_/\n");
+    
+    return 0;
+    
+}
