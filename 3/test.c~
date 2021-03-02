@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+#define TRUE 1
+#define FALSE 0
+
+int main(void) {
+    
+    if (10 < 20 == TRUE) {
+        printf("That was true\n");
+    }
+
+    return 0;
+}
