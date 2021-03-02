@@ -1,12 +1,24 @@
+//
+//
+//
+
 #include <stdio.h>
 
 int main(void) {
-
-    int i = 1;
-    while (i <= 42) {
+    
+    int max = 0;
+    printf("Hey gimme yo max: ");
+    scanf("%d", &max);
+    
+    int min = 0;
+    printf("Hey gimme yo min: ");
+    scanf("%d", &min);
+    
+    int i = min;
+    while (i <= max) {
         printf("%d\n", i);
-        i += 1;
+        i++;
     }
-
+    
     return 0;
 }
