@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main(void) {
+    
+    int x = 10;
+    
+    int *a = &x;
+    
+    int b = *a;
+    
+    printf("%d\n", x);
+    
+    printf("%p\n", a);
+    
+    printf("%d\n", b);
+    
+    int a = 10;
+    int b = 20;
+    b = a; // b= 10;
+    
+}

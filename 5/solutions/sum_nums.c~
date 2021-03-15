@@ -1,0 +1,11 @@
+
+int sum;
+
+sum_nums(42, 54, &sum);
+
+void sum_nums(int a, int b, int *sum) {
+    int a = 
+
+}
+
+int sum_nums(int a, int b);
