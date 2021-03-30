@@ -1,9 +1,5 @@
 # Tutorial 7 Notes
 
-## More notes at https://cgi.cse.unsw.edu.au/~cs1511/20T2/tut/07/questions
-
-## Noteworthy points
-
 * RECORD
 * Today we will cover characters and strings + more input/output
 

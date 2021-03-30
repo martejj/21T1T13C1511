@@ -3,7 +3,7 @@
 ## Noteworthy points
 
 * RECORD
-* Today we will cover pointers, memory and some misc bits
+* Today we will cover pointers, functions and 2d arrays
 * Mid term break next week!
 * Commenting
 
@@ -44,8 +44,8 @@
 
     int main(void) {
         int a = 0;
-        my_function(b);
-        printf("%d", b);
+        my_function(a);
+        printf("%d", a);
     }
 
 ```
