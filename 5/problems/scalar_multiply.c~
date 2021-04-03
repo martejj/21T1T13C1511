@@ -22,7 +22,6 @@ void scalar_multiply(int rows, int columns, int matrix[rows][columns],  int scal
         while (j < columns) {
             // Visit every index in the 2d
             matrix[i][j] = matrix[i][j] * scalar;
-            j++;
         }
         i++;
     }

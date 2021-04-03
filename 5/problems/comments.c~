@@ -11,6 +11,7 @@
 
 int main (void) {
     
+    // stores the command
     int command;
     printf("Enter instruction: ");
     
@@ -23,14 +24,10 @@ int main (void) {
             scanf("%d", &num);
             printf("%d\n", num * num);
         } else if (command == POWER_COMMAND) {
-        
-            // Stores the base and the power
             int base, power;
             scanf("%d %d", &base, &power);
-            // initialise i to be 0
             int i = 0;
             int result = 1;
-            // loop while i is less than power
             while (i < power) {
                 result *= base;
                 i++;
