@@ -6,11 +6,9 @@ int main(void) {
     
     char string[MAX_LINE];
     
-    char *result = fgets(string, MAX_LINE, stdin);
+    fgets(string, MAX_LINE, stdin);
+    fputs(string, stdin);
+    fputs(string, stdin);
     
-    while (result != NULL) {
-        fputs(string, stdin);
-        fputs(string, stdin);
-    }
     return 0;
 }
