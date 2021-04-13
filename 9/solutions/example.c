@@ -1,0 +1,14 @@
+
+int row = 0;
+int col = 0;
+
+if (isValidPoint(row,col))
+
+if (gameOver == 1) {
+    printf("Game Lost!\n");
+    return 0;
+}
+else 
+    moveStonesDown(map, playerX);
+
+return 1;
