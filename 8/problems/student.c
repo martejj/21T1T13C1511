@@ -5,41 +5,49 @@
 #define MAX_NAME 100
 
 struct student {
-    int zid; // 4 bytes
-    double ass1Mark; // 8 bytes
     char name[MAX_NAME]; // 100 bytes
-}; // 112 bytes
+    int zid;             // 4 bytes    -> 112 bytes
+    double ass1_mark;    // 8 bytes
+    struct student *next;
+};
 
+struct student *create_student(char name[MAX_NAME], int zid, double ass1_mark);
+void give_full_marks(struct student *s);
 
 int main(void) {
     
-    // Making just a plain struct 
+    struct student *harrison = create_student("Harrison", 5214808, 100.0);
+    printf("%s: ass1: %lf, zid: %d\n", harrison->name, harrison->ass1_mark, harrison->zid);
     
-    //   type   // // name//
-    struct student frankie; // C creates space for the struct
+    struct student *andrew = create_student("Andrew", 5214807, 101.0);
     
+    andrew->next = harrison;
     
-    frankie.zid = 5333333;
-    frankie.ass1Mark = 99.9;
-    // frankie.name = "Frankie"; <-- not this
-    strcpy(frankie.name, "Frankie");
+    struct student *marc = create_student("Marc", 5214806, 5.0);
     
-    // Pass by value
+    andrew->next->next = marc;
     
-    // Making a pointer to a struct
-    struct student *chicken = malloc(sizeof(struct student));
+    struct student *curr;
     
-    chicken->zid = 5132441;
-    chicken->ass1Mark = 50.0;
-    strcpy(chicken->name, "Chicken");
+    while(??) {
     
-    setMarkTo100(chicken);
+    }
     
-    printf("%lf\n", chicken->ass1Mark);
-    /*
-    int array[10];
-    array[0] = 10; // Setting
-    int valueAtZero = array[0]; // Getting
-    */
+    return 0;
 }
 
+void give_full_marks(struct student *s) {
+    // (*s).ass1_mark = 100.0; <-- Longhand
+    s->ass1_mark = 100.0;
+}
+
+struct student *create_student(char name[MAX_NAME], int zid, double ass1_mark) {
+    struct student *s = malloc(sizeof(struct student));
+    
+    s->zid = zid;
+    s->ass1_mark = ass1_mark;
+    strcpy(s->name, name);
+    s->next = NULL;
+    
+    return s;
+}
